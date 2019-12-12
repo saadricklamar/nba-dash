@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "../Components/Header/Header";
 import "./App.css";
 
 export class App extends Component {
@@ -8,7 +9,12 @@ export class App extends Component {
   }
 
   render() {
-    return <div className="App">hi</div>;
+    return (
+      <div>
+        <Header />
+        <div className="App">hi</div>
+      </div>
+    );
   }
 }
 
