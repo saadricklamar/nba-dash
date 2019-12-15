@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="Header">
       <header className="searchbar">
-        <button>NBA</button>
+        <h1 className="nba">NBA-Dash</h1>
         <input type="text" name="search" placeholder=" Search any player" />
         <button></button>
         <button></button>
